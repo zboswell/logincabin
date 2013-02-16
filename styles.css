@@ -76,11 +76,18 @@ h1{
 color: red;	
 }
 
+h3{
+	font-size: 12px;
+	color: #625c5e;
+	font-weight: 700;
+	
+}
+
 h2{
 	font-size: 18px;
 	color: #5EB03B;
 	font-weight: 700;
-	
+
 }
 
 li {
