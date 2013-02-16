@@ -49,34 +49,46 @@ table {
 
 /*CUSTOM STYLES*/
 
-body {
-	width: 880px;
+.container {
+	width: 920px;
 	margin: auto;
 }
 
 aside {
 	float: left;
 	width: 300px;
+	padding: 10px;
 	margin: 10px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Bitter', serif;
-	text-transform: uppercase;
-	line-height: 40px;
+header {
+	background-color: #1B4150;
+	margin: auto;
+	line-height: 20px;
+	overflow: hidden;
+	width: 100%;
 }
 
- th {
+
+
+h1, h2, h3, h4, h5, h6, th {
 	font-family: 'Bitter', serif;
 	text-transform: uppercase;
 	line-height: 40px;
 }
 
 h1{
-color: red;	
+color: white;
+font-size: 24px;	
 }
 
-h3{
+th {
+	text-align: left;
+	line-height: 40px;
+	width: 230px;
+}
+
+h3, th{
 	font-size: 12px;
 	color: #625c5e;
 	font-weight: 700;
@@ -92,8 +104,6 @@ h2{
 
 li {
 	color: #252525;
-	font-family: 'Cabin', sans-serif;
-	list-style: none;
 	line-height: 24px;
 }
 
@@ -101,24 +111,21 @@ ul {
 	margin-bottom: 20px;
 }
 
+li, td {
+	font-family: 'Cabin', sans-serif;
+}
+
 -----------------------------------
-tr {
-color: green;
-}
 
 
-th {
-	font-size: 12px;
-	color: #414141;
-	line-height: 40px;
-	text-align: left;
-}
 
 
 td{
 	font-color: #252525;
-	font-family: 'Cabin', sans-serif;
 	line-height: 80px;
+	padding-right: 40px;
+	text-align: left;
+	width: 230px;
 }
 
 -------------------------------------
@@ -132,9 +139,12 @@ td{
 
 }
 
-.inventory{
+.primary{
 	float: right;
 	width: 540px;
-	margin: 10px;	
+	margin: 170px 10px 10px 10px;	
 }
 
+.inventory {
+
+}
